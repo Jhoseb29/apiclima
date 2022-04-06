@@ -60,19 +60,18 @@
     
 }
 
-.degrees a{
+.degrees button{
     position: relative;
     width: 150px;
     height: 50px;
     display: inline-block;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.39), #ffffff56);
     backdrop-filter: blur(10px);
-    cursor: pointer;
-    -webkit-user-select: none;
+    border: none;
 }
 
-.degrees a::before,
-.degrees a::after
+.degrees button::before,
+.degrees button::after
 {
     content: '';
     position: absolute;
@@ -82,23 +81,23 @@
     transition: 0.2s;
 }
 
-.degrees a::before,
-.degrees a::after{
+.degrees button::before,
+.degrees button::after{
     background: linear-gradient(45deg, #00ccff, #0e1538,
     #d400d4);
 }
 
-.degrees a:hover::before{
+.degrees button:hover::before{
     inset: -3px;
     
 }
 
-.degrees a:hover::after{
+.degrees button:hover::after{
     inset: -3px;
     filter: blur(10px);
 }
 
-.degrees a span{
+.degrees button span{
     position: absolute;
     top: 0;
     left: 0;

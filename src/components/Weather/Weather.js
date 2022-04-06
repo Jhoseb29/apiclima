@@ -27,8 +27,8 @@ const Weather = ({icon, city, country, temp, weatherDescription, humidity, cloud
             </div>
 
             <div className='degrees'>
-       <p>{fahrenheit ? temp : (temp * 9/5) + 32 }{fahrenheit ? '°C' : '°F'}</p>
-                <a href='#' className='button'  onClick={() => setFahrenheit(!fahrenheit)}> <span>{fahrenheit ? 'Fahrenheit' : 'Centigrados'}</span> </a> 
+            <p>{fahrenheit ? temp : (temp * 9/5) + 32 }{fahrenheit ? '°C' : '°F'}</p>
+                <button  className='button' href='#' onClick={() => setFahrenheit(!fahrenheit)}> <span>{fahrenheit ? 'Fahrenheit' : 'Centigrados'}</span> </button> 
            </div> 
 
           

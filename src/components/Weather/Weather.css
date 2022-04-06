@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.container{
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    width: 280px;
+    height: 600px;
+    border: 1px solid;
+    margin: auto;
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.39), #ffffff56);
+    backdrop-filter: blur(10px);
+}
+
+
+.location{
+    width: 280px;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.clouds{
+    position: relative;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.clouds img{
+    width: 200px;
+}
+
+.clouds p{
+    position: relative;
+    bottom: 40px;
+    font-size: 20px;
+}
+
+
+.degrees{
+    position: relative;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.degrees p{
+    font-size: 50px;
+    color: aquamarine;
+}
+
+.degrees a{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.39), #ffffff56);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+.degrees a::before,
+.degrees a::after
+{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.39), #ffffff56);
+    backdrop-filter: blur(10px);
+    transition: 0.2s;
+}
+
+.degrees a::before,
+.degrees a::after{
+    background: linear-gradient(45deg, #00ccff, #0e1538,
+    #d400d4);
+}
+
+.degrees a:hover::before{
+    inset: -3px;
+    
+}
+
+.degrees a:hover::after{
+    inset: -3px;
+    filter: blur(10px);
+}
+
+.degrees a span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.39), #ffffff56);
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(6, 7, 7);
+}
+
+.container .details{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 120px;
+    width: 280px;
+    align-items: center;
+    color:black;
+}
+
+
+
+.humidity{
+    position: relative;
+    width: 53px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px 0;
+}
+
+.humidity a{
+    display: flex;
+    justify-content: center;
+}
+
+.humidity span{
+    display: flex;
+    justify-content: center;
+}
+
+.cloudy{
+    position: relative;
+    width: 53px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px 0;
+
+}
+
+.cloudy a{
+    display: flex;
+    justify-content: center;
+}
+
+.cloudy span{
+    display: flex;
+    justify-content: center;
+}
+
+.wind{
+    position: relative;
+    width: 53px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 0 20px 0;
+}
+
+.wind a{
+    display: flex;
+    justify-content: center;
+}
+
+.wind span{
+    display: flex;
+    justify-content: center;
+}
+
+

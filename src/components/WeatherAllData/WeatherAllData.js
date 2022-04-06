@@ -43,7 +43,7 @@ function WeatherAllData() {
 
   return (
     <div className="WeatherAllData">
-      {(isLoading) ? <Loader /> : <Weather icon={icon} weatherDescription={weatherDescription}  city={city} country={country} temp={temp} humidity={humidity} clouds={clouds} wind={wind}/>}
+      {(isLoading) ? <Loader /> : <Weather icon={icon} weatherDescription={weatherDescription}  city={city} country={country} temp={temp} humidity={humidity} clouds={clouds} wind={wind} location={location}/>}
     </div>
   );
 }

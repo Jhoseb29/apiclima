@@ -128,7 +128,6 @@
 }
 
 
-
 .humidity{
     position: relative;
     width: 53px;
@@ -139,9 +138,10 @@
     margin: 0 20px 0;
 }
 
-.humidity a{
+.humidity p{
     display: flex;
     justify-content: center;
+    cursor: auto;
 }
 
 .humidity span{
@@ -160,9 +160,10 @@
 
 }
 
-.cloudy a{
+.cloudy p{
     display: flex;
     justify-content: center;
+    cursor: auto;
 }
 
 .cloudy span{
@@ -179,9 +180,11 @@
     margin: 0 20px 0;
 }
 
-.wind a{
+.wind p{
     display: flex;
+    cursor: auto;
     justify-content: center;
+    text-decoration: none;
 }
 
 .wind span{

@@ -1,10 +1,8 @@
 import './WeatherAllData.css';
-import axios from 'axios'
 import { useEffect, useState} from 'react'
 import getDatesWeather from '../../services/getDatesWeather';
 import Weather from '../Weather/Weather'
 import Loader from '../Loader/Loader';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 function WeatherAllData() {
   
@@ -41,10 +39,7 @@ function WeatherAllData() {
     })  
   }, [])
 
-  const error = () => {
-    setLoading(true);
-  }
-
+ 
 
   return (
     <div className="WeatherAllData">

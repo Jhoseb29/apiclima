@@ -1,6 +1,5 @@
 import React from 'react';
 import second from '../Loader/Loader.css'
-
 const Loader = () => {
     return (
         <div className='loading'>

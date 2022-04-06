@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Weather/Weather.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faBible, faCloud, faDroplet, faDropletSlash, faHouseMedical, faWind } from '@fortawesome/free-solid-svg-icons'
+import {  faCloud, faDroplet, faWind } from '@fortawesome/free-solid-svg-icons'
 
 import {useState} from 'react'
 
